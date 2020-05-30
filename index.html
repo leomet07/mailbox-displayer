@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <title>View mailbox</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <h1>View mailbox</h1>
+    <div id="display">
+        <img id="myimg" />
+        <p id="date"></p>
+    </div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyAjM9zJgZTtQahKkbt2sNyw4DBU74BFWOs",
+            authDomain: "mailbox-alarm.firebaseapp.com",
+            databaseURL: "https://mailbox-alarm.firebaseio.com",
+            projectId: "mailbox-alarm",
+            storageBucket: "mailbox-alarm.appspot.com",
+            messagingSenderId: "718325752978",
+            appId: "1:718325752978:web:11c7ffd51d71057459724b",
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
